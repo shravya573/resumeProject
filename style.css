@@ -1,1 +1,121 @@
-html
+.main{
+  background-color: #ddd;
+  border: 1px solid skyblue;
+  display: flex;
+  flex-direction: row;
+}
+
+.profile{
+  padding: 2%;
+  margin: 2%;
+  width: 30%;
+  background-color: #fff;
+  border: 2px solid black;
+  font-size: 25px;
+  text-align: center;
+  background-color: skyblue;
+  font: italic;
+}
+.profile img{
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid blue;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10%;
+  font:italic;
+
+
+}
+.content{
+  padding: 2%;
+  margin: 2%;
+  width: 65%;
+  background-color: pink;
+  border: 2px solid orange;
+  border-radius: 10%;
+}
+@media only screen and (max-width:480px){
+  .main{
+    background-color: #ddd;
+    border: 1px solid skyblue;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+  }
+
+  .profile{
+    padding: 2%;
+    margin: 2%;
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid black;
+    font-size: 25px;
+    text-align: center;
+    font-style: italic;
+
+  }
+  .profile img{
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid blue;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%;
+
+  }
+  .content{
+    padding: 2%;
+    margin: 2%;
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid black;
+    border-radius: 10%;
+    font-style: italic;
+  }
+}
+@media only screen and (min-width:481px) and (max-width:769px){
+  .main{
+    background-color: #ddd;
+    border: 1px solid black;
+    display:flex;
+    flex-direction: column;
+    background-color: pink;
+    flex-wrap: wrap;
+  }
+
+  .profile{
+    padding: 2%;
+    margin: 2%;
+    width: 92%;
+    background-color: silver;
+    border: 2px solid black;
+    font-size: 25px;
+    text-align: left;
+    font-style: italic;
+  }
+  .profile img{
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid grey;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%;
+
+
+  }
+  .content{
+    padding: 2%;
+    margin: 2%;
+    width: 92%;
+    background-color: skyblue;
+    border: 2px solid black;
+    border-radius: 10%;
+    font-style: italic;
+  }
+
+}

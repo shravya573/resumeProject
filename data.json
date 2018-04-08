@@ -1,0 +1,47 @@
+{
+  "basics":{
+    "name":"shravya",
+    "photo":"images.png",
+    "email":"shravyadurbhaka@gmail.com",
+    "mobile no":"909000000",
+    "address":"svit"
+  },
+"career":{
+  "info":"To pursue a challenging career and be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization"
+},
+"education":[
+  {
+    "degree":"b-tech",
+    "institute":"svit,anantapur",
+    "data":["2016-20","75%"]
+  },
+  {
+    "degree":"intermediate",
+    "institute":"narayana college",
+    "data":["2014-16","74%"]
+  },
+  {  "degree":"s.s.c",
+    "institute":"prasad school",
+    "data":["2013-14","85%"]
+
+}
+],
+"skills":[
+  {
+    "sname":"languages",
+    "sdata":["c","c++","java"]
+  },
+  {
+    "sname":"databases",
+    "sdata":["oracle","mysql","mysqlite","pdo"]
+  },
+{
+  "sname":"webtechnologies",
+  "sdata":["html","xml","css","php","javascript"]
+},
+{
+  "sname":"operatingsystems",
+  "sdata":["windows","linux","unix"]
+}
+]
+}
